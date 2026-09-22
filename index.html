@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111318">
+  <title>Каталог · внутренний учёт</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <div class="logo">CATALOG</div>
+        <div class="subtitle">Внутренний каталог · цена для учёта</div>
+      </div>
+      <input id="search" class="search" type="search" autocomplete="off"
+             placeholder="Поиск по названию или артикулу…">
+    </div>
+    <nav id="categories" class="categories" aria-label="Категории"></nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1 id="title">Все товары</h1>
+  <div id="counter" class="counter"></div>
+  <section id="productGrid" class="grid" aria-live="polite"></section>
+</main>
+
+<script src="assets/js/products.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
